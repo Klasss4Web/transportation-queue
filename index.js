@@ -1,8 +1,8 @@
-let customerName = document.querySelectorAll('.customer-name');
-let customerId = document.querySelectorAll('.customer-id');
-let slot = document.querySelectorAll('.slot');
-let addQueue = document.querySelector('.add-queue');
-let callNext = document.querySelector('.call-next');
+const customerName = document.querySelectorAll('.customer-name');
+const customerId = document.querySelectorAll('.customer-id');
+const slot = document.querySelectorAll('.slot');
+const addQueue = document.querySelector('.add-queue');
+const callNext = document.querySelector('.call-next');
 
 let date = document.querySelector('.date');
 
