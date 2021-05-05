@@ -1,18 +1,19 @@
 /**************Google Font *****************/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 
 /************* Global Styles ***************/
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -33,15 +34,12 @@ img {
 
 .flex-container {
   display: flex;
+  flex-direction: row;
 }
 
 .flex-item {
   width: 50%;
   padding-left: 60px;
-}
-
-h1 {
-  text-align: center;
 }
 
 /************** Header Styles *******************************/
@@ -75,7 +73,7 @@ header {
 .nav-bar li {
   display: inline;
   padding-right: 30px;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .nav-bar a {
@@ -88,14 +86,26 @@ header {
   cursor: pointer;
 }
 
+/************* Main Section styles **************************/
+.heading {
+  text-align: center;
+}
+
+.heading p {
+  font-size: 20px;
+  font-style: italic;
+}
 
 /************* Styles for the Table nd its Contents *********/
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   height: 40px;
   width: 200px;
   font-size: 20px;
@@ -113,10 +123,12 @@ table {
 
 caption {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 
 .buttons {
   margin-top: 50px;
+  text-align: center;
 }
 
 .buttons button {
@@ -124,3 +136,27 @@ caption {
   background: blue;
   color: #ffffff;
 }
+
+/****************Footer Styles ***************/
+footer {
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 200px;
+  background: #f2f2f2;
+}
+
+.footer-items {
+  width: 33%;
+  margin-left: 50px;
+}
+
+.logo-container .logo {
+  transform: translateY(50%);
+}
+
+.contact_details, .copy-right_details {
+  font-size: 22px;
+  margin-top: 80px;
+}
+
